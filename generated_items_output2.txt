@@ -1,0 +1,330 @@
+=== Condition 1: Weak Theory Items ===
+--- Task 1 ---
+---
+
+**Item 1:**
+*The student is able to critique conceptual accuracy and logical coherence in a reaction paper on **Automated Item Generation (AIG)**.*
+
+**Response Criteria:**
+- **Level 0 (None):** The reaction paper fails to address conceptual accuracy or logical coherence. No evidence of engagement with the topic’s psychometric or methodological implications (e.g., ignores item validity, bias, or theoretical underpinnings of AIG).
+- **Level 1 (Limited):** The critique touches on *some* aspects of conceptual accuracy or coherence (e.g., mentions "automated items" or "LLM limitations") but lacks depth, specificity, or critical analysis. Errors include:
+  - Superficial observations (e.g., "It’s fast" without linking to psychometric standards).
+  - Logical inconsistencies (e.g., conflating AIG with human-generated items without distinction).
+  - No engagement with empirical or theoretical critiques (e.g., ignores sampling bias, content validity, or fairness concerns).
+- **Level 2 (Moderate):** The critique demonstrates *mostly* accurate and coherent analysis of AIG’s conceptual and logical coherence, with minor flaws. Examples of competence:
+  - Identifies key psychometric risks (e.g., "AIG may overrepresent certain item types, skewing difficulty estimates").
+  - Discusses trade-offs (e.g., "Speed vs. reliability trade-offs in automated item pools").
+  - Minor errors include:
+    - Overgeneralizing findings (e.g., applying AIG critiques to unrelated models without nuance).
+    - Incomplete references to validation methods (e.g., omits pilot testing or expert review).
+- **Level 3 (Complete):** The critique is *fully* accurate, coherent, and comprehensive, demonstrating mastery of AIG’s conceptual and logical challenges. Evidence includes:
+  - Rigorous engagement with psychometric standards (e.g., "AIG items must meet IRT assumptions; failure to do so risks biased parameter estimates").
+  - Critical evaluation of logical coherence (e.g., "The LLM’s training data may introduce content gaps, violating construct representation").
+  - Integration of empirical evidence (e.g., cites studies on AIG’s reliability or fairness) and methodological solutions (e.g., "Hybrid review processes can mitigate bias").
+  - No observable errors; analysis is nuanced, evidence-based, and aligned with course readings.
+
+---
+
+**Item 2:**
+*The student is able to critique conceptual accuracy and logical coherence in a reaction paper on **Automated Item Generation (AIG)**.*
+
+**Response Criteria:**
+- **Level 0 (None):** The reaction paper provides no critique of conceptual accuracy or logical coherence. The discussion is either absent, irrelevant, or reduces AIG to a technical description (e.g., "Here’s how to prompt an LLM") without addressing psychometric validity.
+- **Level 1 (Limited):** The critique attempts to address accuracy or coherence but fails in critical areas. Examples of incomplete execution:
+  - Focuses on *procedural* details (e.g., "The LLM needs fine-tuning") without linking to conceptual validity.
+  - Logical flaws include:
+    - Assuming AIG automatically solves psychometric problems (e.g., "LLMs generate unbiased items").
+    - Ignoring domain-specific knowledge (e.g., "AIG works for all constructs" without evidence).
+  - No engagement with theoretical frameworks (e.g., IRT, CTT) or empirical limitations.
+- **Level 2 (Moderate):** The critique accurately addresses *most* aspects of conceptual accuracy and logical coherence, with isolated weaknesses. Strengths include:
+  - Discusses specific psychometric risks (e.g., "AIG may produce items with low discriminant validity").
+  - Addresses logical gaps (e.g., "The model’s training data may not align with the target population").
+  - Minor errors include:
+    - Underestimating the complexity of validation (e.g., "Pilot testing is optional").
+    - Superficial references to fairness (e.g., "AIG could be biased" without mechanisms or data).
+- **Level 3 (Complete):** The critique is a *masterful* evaluation of AIG’s conceptual and logical coherence, demonstrating advanced psychometric and methodological insight. Key indicators:
+  - **Conceptual Accuracy:** Critiques align with established psychometric theory (e.g., "AIG violates unidimensionality if items tap multiple constructs").
+  - **Logical Coherence:** Identifies and resolves paradoxes (e.g., "AIG’s speed may compromise construct relevance unless guided by item response theory").
+  - **Evidence Integration:** Uses course readings to support claims (e.g., cites [Author, Year] on AIG’s reliability or [Study] on content validity pitfalls).
+  - **Critical Nuance:** Distinguishes between AIG’s strengths (e.g., scalability) and weaknesses (e.g., "Without human oversight, AIG may overfit to training data").
+  - **Actionable Insights:** Proposes solutions (e.g., "Hybrid models combining AIG and expert review can balance efficiency and validity").
+
+---
+**Key Differentiators Between Items:**
+- **Item 1** emphasizes *depth of psychometric engagement* (e.g., IRT assumptions, empirical evidence).
+- **Item 2** focuses on *logical rigor and theoretical integration* (e.g., resolving paradoxes, nuanced fairness critiques).
+Both adhere strictly to the stem and topic while targeting distinct observable variables (e.g., **Item 1**: "rigorous engagement with standards"; **Item 2**: "critical nuance and paradox resolution").
+--- Task 2 ---
+Here are **three distinct parallel rating scale items** strictly adhering to your requirements:
+
+---
+
+**Item 1**
+*The student is able to apply R/Python code to execute LLM API calls and process computational outputs for **Automated Item Generation (AIG)**.*
+- **Level 0 (None):** No API integration or code execution for AIG; no evidence of LLM interaction or item generation.
+- **Level 1 (Limited):** Code attempts API calls but fails to generate valid items (e.g., syntax errors, empty responses, or irrelevant outputs).
+- **Level 2 (Moderate):** Code successfully generates *some* items (e.g., 1–3 stems) but contains minor flaws (e.g., incomplete prompts, no error handling, or superficial validation).
+- **Level 3 (Complete):** Code fully automates AIG (e.g., ≥5 items with clear prompts, error handling, and basic validation) and processes outputs (e.g., token counts, response formatting).
+
+---
+
+**Item 2**
+*The student is able to apply R/Python code to execute LLM API calls and process computational outputs for **Automated Item Generation (AIG)**.*
+- **Level 0 (None):** No evidence of LLM API usage for AIG; code is absent or unrelated to the task.
+- **Level 1 (Limited):** Code makes API calls but produces *unusable* items (e.g., nonsensical stems, no thematic alignment, or no response processing).
+- **Level 2 (Moderate):** Code generates *partially functional* items (e.g., 3–5 stems with minor issues like redundant phrasing or no scoring logic) and includes basic output processing.
+- **Level 3 (Complete):** Code generates *high-quality* AIG items (≥5 stems) with robust prompts, validation (e.g., keyword checks), and processed outputs (e.g., JSON/API response parsing).
+
+---
+
+**Item 3**
+*The student is able to apply R/Python code to execute LLM API calls and process computational outputs for **Automated Item Generation (AIG)**.*
+- **Level 0 (None):** No API interaction or code submission; task is ignored or abandoned.
+- **Level 1 (Limited):** Code attempts AIG but fails to produce *any* viable items (e.g., infinite loops, API timeouts, or blank responses).
+- **Level 2 (Moderate):** Code generates *basic* items (e.g., 2–4 stems) with *critical* flaws (e.g., no prompt engineering, no error recovery, or unstructured outputs).
+- **Level 3 (Complete):** Code demonstrates *full* AIG workflow: ≥5 items with optimized prompts, error handling, and processed outputs (e.g., token analysis, response filtering, or metadata extraction).
+
+---
+**Key Differentiators Across Items:**
+1. **Item 1** focuses on *quantity* (e.g., "≥5 items") and *processing* (e.g., "token counts").
+2. **Item 2** emphasizes *quality* (e.g., "high-quality stems") and *validation* (e.g., "keyword checks").
+3. **Item 3** highlights *robustness* (e.g., "error recovery") and *completeness* (e.g., "full workflow").
+
+All items use the **exact stem** and **topic** while varying **observable behaviors** and **level descriptors** to assess nuanced performance.
+--- Task 3 ---
+Here are **three distinct parallel rating scale items** adhering strictly to your requirements:
+
+---
+
+**Item 1:**
+*The student is able to create a new measurement framework applying LLMs and psychometrics for **Applied LLMs in Psychometrics**.*
+**Response Criteria:**
+- **Level 0 (None):** No evidence of a measurement framework. Code and report are absent or irrelevant to the topic.
+- **Level 1 (Limited):** Framework exists but lacks conceptual rigor (e.g., superficial LLM integration, no psychometric validation). Code is incomplete or non-functional; report is vague or lacks detail.
+- **Level 2 (Moderate):** Framework demonstrates basic integration of LLMs and psychometrics (e.g., item generation or scoring) but contains minor flaws (e.g., untested assumptions, incomplete error handling). Code is functional but inefficient; report includes key steps but omits critical analysis.
+- **Level 3 (Complete):** Framework is theoretically sound, empirically validated, and demonstrates **novel** application of LLMs to psychometrics (e.g., automated item calibration, embedding-based trait inference). Code is **well-documented, efficient, and reproducible**; report includes **rigorous methodology, limitations, and implications** for future research.
+
+---
+
+**Item 2:**
+*The student is able to create a new measurement framework applying LLMs and psychometrics for **Applied LLMs in Psychometrics**.*
+**Response Criteria:**
+- **Level 0 (None):** No framework or evidence of LLM-psychometric integration. Code and report are either absent or unrelated to the task.
+- **Level 1 (Limited):** Framework attempts integration but fails to address core psychometric principles (e.g., ignores reliability/validity). Code is **non-functional or copied without adaptation**; report is **descriptive but lacks technical depth** (e.g., no discussion of token limits, bias, or model constraints).
+- **Level 2 (Moderate):** Framework shows **partial** integration (e.g., LLM-generated items but no scoring logic). Code works but is **clunky or lacks modularity**; report includes **basic steps** but omits **key psychometric metrics** (e.g., ICC, DIF) or **error analysis**.
+- **Level 3 (Complete):** Framework is **self-contained, reproducible, and extends psychometric theory** (e.g., hybrid LLM-IRT models, adaptive testing via embeddings). Code is **optimized, modular, and includes error handling**; report provides **detailed validation** (e.g., simulation studies, cross-validation), **comparisons to classical methods**, and **discussion of ethical/technical trade-offs**.
+
+---
+
+**Item 3:**
+*The student is able to create a new measurement framework applying LLMs and psychometrics for **Applied LLMs in Psychometrics**.*
+**Response Criteria:**
+- **Level 0 (None):** No framework or evidence of LLM-psychometric work. Code and report are either **nonexistent or irrelevant**.
+- **Level 1 (Limited):** Framework exists but is **superficial** (e.g., LLM used only for keyword extraction without psychometric framing). Code is **untested or copied verbatim**; report is **narrative-heavy with no technical justification** (e.g., "I asked the LLM to generate items").
+- **Level 2 (Moderate):** Framework includes **some** LLM-psychometric linkage (e.g., LLM scoring but no item analysis). Code is **functional but ad-hoc** (e.g., hardcoded prompts, no API rate-limiting checks); report includes **basic results** but lacks **discussion of model limitations** (e.g., hallucinations, bias) or **alternative approaches**.
+- **Level 3 (Complete):** Framework is **theoretically innovative** (e.g., LLM-driven differential item functioning analysis, dynamic test assembly via embeddings) and **empirically robust**. Code is **scalable, documented, and includes version control**; report features **comparative analyses** (e.g., LLM vs. human scoring), **replication steps**, and **clear implications for research/practice**, including **cost-benefit trade-offs** and **suggestions for improvement**.
+
+---
+**Key Features of Parallelism:**
+1. **Unchanged Stem/Topic:** Verbatim adherence to your instructions.
+2. **Distinct Behavioral Examples:**
+   - **Item 1:** Focuses on **conceptual rigor** and **report depth**.
+   - **Item 2:** Emphasizes **technical execution** (code modularity, validation).
+   - **Item 3:** Highlights **innovation** and **comparative analysis**.
+3. **Observable Variables:**
+   - All items evaluate **code functionality**, **report quality**, and **psychometric integration** (explicitly or implicitly).
+4. **Gradual Complexity:** Each level builds logically from the previous one.
+
+
+==========================================
+
+
+=== Condition 2: Strong Theory Items ===
+--- Task 1 ---
+Here are **two distinct parallel rating scale items** adhering strictly to the provided constraints, cognitive taxonomy, and rubric requirements:
+
+---
+
+### **Item 1**
+*"The student is able to critique conceptual accuracy and logical coherence in a reaction paper on **Automated Item Generation (AIG)**."*
+
+**Observable Variables:**
+- **Observable 1:** *Structural Integration* – How well the critique connects theoretical principles (e.g., item response theory, prompt engineering) to the paper’s claims.
+- **Observable 2:** *Conceptual Accuracy* – Precision in identifying gaps, misalignments, or logical fallacies in the paper’s arguments.
+
+**4-Tier Evidence Scale (with Diagnostic Rubric Constraints):**
+- **Level 0 (None):** No evidence of engagement with AIG principles; critique lacks relevance to psychometric theory or LLM applications.
+- **Level 1 (Limited):** Critique identifies superficial flaws (e.g., "the paper is unclear") but fails to link to AIG-specific concepts (e.g., prompt bias, embedding validity) or logical inconsistencies.
+- **Level 2 (Moderate):** Critique accurately pinpoints *some* conceptual errors (e.g., misapplication of item difficulty metrics) or logical gaps, but synthesis is incomplete or lacks depth in connecting to broader AIG frameworks.
+- **Level 3 (Complete):** Critique demonstrates **full mastery** of AIG principles, integrating:
+  - **Structural Integration:** Clear linkage between the paper’s claims and theoretical frameworks (e.g., "The paper conflates prompt-based item generation with classical IRT, ignoring the lack of latent trait assumptions in LLMs").
+  - **Conceptual Accuracy:** Precise identification of logical fallacies (e.g., "The argument assumes LLMs generate unbiased items without addressing sampling bias in training data").
+  - **Scenario Constraint Met:** Addresses **Radical 1 (Moderate)** by requiring inference beyond explicit text (e.g., "The paper’s claim about scalability ignores rate-limiting constraints, a critical AIG constraint").
+
+---
+
+### **Item 2**
+*"The student is able to critique conceptual accuracy and logical coherence in a reaction paper on **Automated Item Generation (AIG)**."*
+
+**Observable Variables:**
+- **Observable 1:** *Structural Integration* – Whether the critique evaluates how the paper’s methodology aligns with psychometric validity criteria (e.g., content, construct, or predictive validity).
+- **Observable 2:** *Conceptual Accuracy* – Accuracy in distinguishing between AIG-specific challenges (e.g., hallucination risks, prompt leakage) and classical psychometric concerns.
+
+**4-Tier Evidence Scale (with Diagnostic Rubric Constraints):**
+- **Level 0 (None):** Critique ignores AIG’s unique challenges; reduces evaluation to generic "good/bad writing" without psychometric context.
+- **Level 1 (Diagnostic Misconception):** Confuses AIG with traditional item writing (e.g., "The paper should use more items" without addressing LLM-generated content validity).
+- **Level 2 (Incomplete):** Critique correctly identifies *one* AIG-specific issue (e.g., "The paper doesn’t pilot-test items") but fails to:
+  - Connect it to broader validity frameworks (e.g., "This violates construct relevance").
+  - Address logical coherence (e.g., "The paper assumes LLMs avoid bias without discussing fine-tuning artifacts").
+- **Level 3 (Mastery):** Critique demonstrates **expert-level integration** by:
+  - **Structural Integration:** Mapping the paper’s claims to **specific validity threats** in AIG (e.g., "The paper’s claim of 'automated fairness' ignores distributional shifts in LLM-generated responses").
+  - **Conceptual Accuracy:** Differentiating between:
+    - **AIG-specific risks** (e.g., "The paper ignores prompt injection vulnerabilities").
+    - **Classical psychometric concerns** (e.g., "The paper’s item pool lacks parallel forms, a critical issue for adaptive testing").
+  - **Scenario Constraint Met:** Requires **Radical 1 (Moderate)** by evaluating implicit trade-offs (e.g., "The paper prioritizes speed over reliability, a common AIG tension").
+
+---
+
+### **Key Parallelism Features:**
+1. **Verbatim Stem Usage:** Both items reuse the exact stem and topic placeholder.
+2. **Distinct Observable Variables:**
+   - **Item 1** focuses on *theoretical integration* (linking AIG to psychometric frameworks).
+   - **Item 2** emphasizes *validity and risk assessment* (AIG-specific challenges vs. classical concerns).
+3. **Diagnostic Rubric Alignment:**
+   - **Level 1** in both items reflects a *specific misconception* (Item 1: ignoring theory; Item 2: conflating AIG with classical items).
+   - **Level 3** requires **full mastery** of the **Radical 1 (Moderate)** constraint (inference beyond explicit text).
+4. **Scenario Constraint Uniformity:** Both items set **Radical 1 to "Moderate"** to ensure comparable difficulty.
+
+---
+**Note for Instructor:**
+- These items are designed to **discriminate between graduate and undergraduate performance** by requiring graduate students to:
+  - Explicitly reference **AIG-specific psychometric frameworks** (e.g., "How does this prompt design violate unidimensionality?").
+  - Evaluate **logical coherence** in the context of **LLM limitations** (e.g., "The paper’s claim about 'zero-shot calibration' ignores token drift").
+- Undergraduates may struggle with **Observable 2** (conceptual accuracy) unless they engage with the **advanced/optional readings**.
+--- Task 2 ---
+Here are **three distinct parallel rating scale items** adhering strictly to the provided constraints, cognitive architecture, and diagnostic rubric:
+
+---
+
+### **Item 1**
+*The student is able to apply R/Python code to execute LLM API calls and process computational outputs for **Automated Item Generation (AIG)**.*
+
+**Observable Variables:**
+- **Observable 1:** *Structural Integration* – Whether the student’s code integrates API calls, output parsing, and documentation into a cohesive workflow.
+- **Observable 2:** *Procedural Accuracy* – Whether the student correctly handles API parameters (e.g., `temperature`, `max_tokens`), error handling, and output validation.
+
+**Evidence Scale:**
+- **Level 0:** No evidence of API integration or procedural steps (e.g., hardcoded prompts, no error handling).
+- **Level 1:** Procedural misconception (e.g., incorrect API endpoint, missing authentication, or misinterpreted output format).
+- **Level 2:** Basic API calls executed but with incomplete output processing (e.g., no validation of generated items, missing metadata).
+- **Level 3:** Fully integrated script with accurate API calls, robust output handling, and documented workflow (e.g., seed control, response validation).
+
+---
+
+### **Item 2**
+*The student is able to apply R/Python code to execute LLM API calls and process computational outputs for **Automated Item Generation (AIG)**.*
+
+**Observable Variables:**
+- **Observable 1:** *Structural Integration* – Whether the student’s code modularizes API interactions (e.g., separate functions for prompting, parsing, and validation).
+- **Observable 2:** *Procedural Accuracy* – Whether the student dynamically adjusts parameters (e.g., `top_p`, `stop_sequences`) based on item quality metrics.
+
+**Evidence Scale:**
+- **Level 0:** No modularity; code is a monolithic block with no separation of concerns.
+- **Level 1:** Misapplies dynamic parameters (e.g., fixed `temperature=1` regardless of item coherence).
+- **Level 2:** Modular structure exists but lacks dynamic parameter tuning (e.g., static prompts, no feedback loop).
+- **Level 3:** Fully modular code with adaptive parameter control and validated item outputs (e.g., retries for low-quality responses).
+
+---
+
+### **Item 3**
+*The student is able to apply R/Python code to execute LLM API calls and process computational outputs for **Automated Item Generation (AIG)**.*
+
+**Observable Variables:**
+- **Observable 1:** *Structural Integration* – Whether the student’s code includes error recovery (e.g., retries, fallback models) and logging.
+- **Observable 2:** *Procedural Accuracy* – Whether the student’s output processing aligns with psychometric standards (e.g., item difficulty estimation, distractor validation).
+
+**Evidence Scale:**
+- **Level 0:** No error handling or logging; output is raw/unprocessed.
+- **Level 1:** Procedural flaw in error handling (e.g., silent failures, no retries) or invalid psychometric checks (e.g., ignoring item statistics).
+- **Level 2:** Basic error logging exists but lacks psychometric validation (e.g., no difficulty/validity checks).
+- **Level 3:** Robust error recovery, comprehensive logging, and psychometrically sound output processing (e.g., item response theory-ready metrics).
+
+---
+**Key Features:**
+1. **Parallelism:** All items share the same stem, topic, and observable variables but vary in **specific behavioral examples** (e.g., modularity vs. error handling).
+2. **Radical Constraint:** All items target **Moderate procedural bugs** (e.g., misapplied parameters, incomplete validation) to ensure uniform difficulty.
+3. **Diagnostic Alignment:** Each tier maps directly to the rubric’s **Level 0–3** constraints (e.g., Level 1 = misconception in API control).
+4. **Syllabus Compliance:** References **late penalties** and **completion standards** implicitly (e.g., "fully integrated" = no excuses for incomplete work).
+--- Task 3 ---
+Here are **three distinct parallel rating scale items** adhering strictly to the provided constraints, with observable performance, technical competency, and conceptual mastery as the evaluation foci:
+
+---
+
+### **Item 1**
+*The student is able to create a new measurement framework applying LLMs and psychometrics for **Applied LLMs in Psychometrics**.*
+
+**Observable Variables:**
+- **Structural Integration:** How well the student integrates LLM outputs (e.g., embeddings, generated items) into a psychometric framework (e.g., IRT, CFA, or automated scoring).
+- **Conceptual Accuracy:** Whether the student demonstrates understanding of psychometric principles (e.g., reliability, validity, measurement error) when designing LLM-based workflows.
+
+**Rating Scale (4-Tier Evidence Scale):**
+- **Level 0 (None):** No evidence of integrating LLMs into a psychometric framework. Outputs are either raw LLM responses or unrelated to psychometric theory.
+- **Level 1 (Limited):** Attempts to combine LLMs and psychometrics but fails to apply core principles (e.g., ignores item response theory or validity criteria). Workflow is disjointed or lacks methodological rigor.
+- **Level 2 (Moderate):** Successfully applies LLMs to a psychometric task (e.g., automated item generation or scoring) but with minor flaws. Structural integration is present but incomplete (e.g., missing validation steps or unclear scoring logic).
+- **Level 3 (Complete):** Fully integrates LLMs into a psychometrically sound framework, demonstrating **originality** in methodology (e.g., novel fine-tuning approaches, hybrid models) and **conceptual accuracy** in addressing psychometric constraints (e.g., bias, scalability).
+
+**Diagnostic Notes:**
+- **Radical 1 (Methodological Complexity):** Moderate (e.g., requires synthesis of LLM outputs with psychometric models like IRT or EFA).
+- **Incidental 2 (Length of Code/Report):** Assumes a minimum of 100+ lines of code (R/Python) or a 5-page report with clear methodological justification.
+
+---
+
+### **Item 2**
+*The student is able to create a new measurement framework applying LLMs and psychometrics for **Applied LLMs in Psychometrics**.*
+
+**Observable Variables:**
+- **Structural Integration:** Evidence of linking LLM-generated data (e.g., embeddings, responses) to psychometric models (e.g., factor analysis, differential item functioning analysis).
+- **Conceptual Accuracy:** Demonstration of awareness of psychometric trade-offs (e.g., trade-offs between speed/accuracy in automated scoring, or the impact of LLM hallucinations on reliability).
+
+**Rating Scale (4-Tier Evidence Scale):**
+- **Level 0 (None):** No attempt to connect LLM outputs to psychometric analysis. Work is either purely descriptive (e.g., "LLM says X") or lacks technical implementation.
+- **Level 1 (Diagnostic Misconception):** Applies LLMs to psychometrics but violates core principles (e.g., uses uncalibrated LLM responses as raw scores, ignores sampling bias, or fails to validate against classical test theory).
+- **Level 2 (Incomplete):** Successfully implements an LLM-psychometrics pipeline (e.g., generates items or scores responses) but with **critical gaps** (e.g., no model comparison, no error analysis, or superficial validation).
+- **Level 3 (Mastery):** Presents a **novel, validated** framework where LLMs are seamlessly integrated into psychometric workflows. Includes:
+  - Clear justification for LLM selection (e.g., token efficiency, domain alignment).
+  - Rigorous psychometric validation (e.g., DIF analysis, reliability checks).
+  - Creative solutions to LLM-specific challenges (e.g., handling rate limits, mitigating bias).
+
+**Diagnostic Notes:**
+- **Radical 1 (Methodological Complexity):** Moderate (e.g., requires balancing LLM constraints with psychometric requirements like unidimensionality).
+- **Incidental 2 (Length of Code/Report):** Expects a **detailed technical appendix** (e.g., 150+ lines of code with comments) and a **methodological rationale** (e.g., why a specific LLM was chosen over alternatives).
+
+---
+
+### **Item 3**
+*The student is able to create a new measurement framework applying LLMs and psychometrics for **Applied LLMs in Psychometrics**.*
+
+**Observable Variables:**
+- **Structural Integration:** How the student designs a **feedback loop** between LLM outputs and psychometric feedback (e.g., iterative item refinement, adaptive testing).
+- **Conceptual Accuracy:** Understanding of **psychometric constraints** in LLM applications (e.g., how token limits affect test length, or how LLM calibration affects item difficulty estimation).
+
+**Rating Scale (4-Tier Evidence Scale):**
+- **Level 0 (None):** No evidence of iterative or adaptive processes. Work is static (e.g., one-time LLM item generation without feedback).
+- **Level 1 (Diagnostic Misconception):** Attempts feedback but fails to align with psychometric goals (e.g., uses LLM feedback to tweak items without checking for bias or reliability).
+- **Level 2 (Moderate):** Implements a **basic feedback loop** (e.g., LLM generates items → human reviews → minor edits) but lacks psychometric rigor (e.g., no statistical validation of changes).
+- **Level 3 (Complete):** Demonstrates a **fully adaptive, psychometrically sound** framework where:
+  - LLMs are used dynamically (e.g., for item generation, scoring, or test adaptation).
+  - Feedback mechanisms are **data-driven** (e.g., LLM outputs inform IRT parameter estimates).
+  - The system addresses **known LLM limitations** (e.g., hallucinations, overfitting) with creative solutions (e.g., ensemble methods, human-in-the-loop validation).
+
+**Diagnostic Notes:**
+- **Radical 1 (Methodological Complexity):** Moderate (e.g., requires designing a closed-loop system with psychometric constraints).
+- **Incidental 2 (Length of Code/Report):** Requires **detailed pseudocode** for the feedback loop (e.g., 200+ lines) and a **comparison** of LLM-based vs. classical psychometric approaches.
+
+---
+### **Key Features of Parallel Items:**
+1. **Unchanged Stem/Topic:** All items use the exact stem and **Applied LLMs in Psychometrics** as the incidental topic.
+2. **Distinct Observable Variables:** Each item focuses on a **unique aspect** of structural integration or conceptual accuracy (e.g., feedback loops vs. validation).
+3. **Diagnostic Precision:** Levels 0–3 align with the **rubric constraints**, ensuring granularity in evaluating technical and conceptual mastery.
+4. **Radical 1 Constraint:** All items set **methodological complexity to "Moderate"** for consistency.
+5. **Penalty Alignment:** Items reflect syllabus penalties (e.g., incomplete projects, lack of validation) in Level 1/2 descriptors.
