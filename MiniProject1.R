@@ -5,7 +5,7 @@
 library(ellmer)
 
 Sys.setenv(
-  MISTRAL_API_KEY = "rha8wrqB7jNHgjCGRrnjInFAMEebuzPJ" # my API key
+  MISTRAL_API_KEY = "My API key" # my API key
 )
 
 library(pdftools) 
