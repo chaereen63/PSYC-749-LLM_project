@@ -53,7 +53,7 @@ Prompt1 <- paste0("[Essay List]\n", onlyEssay, "\n[End of Essay List]\n\n", Rubr
 library(ellmer)
 
 Sys.setenv(
-  MISTRAL_API_KEY = "mstrl_XELnUCrALVlbBpFKy6RcuDLq56HBq1xN_0qS3I6" # my API key
+  MISTRAL_API_KEY = "my API key" # my API key
 )
 
 con1 <- chat_mistral(system_prompt = sys_prompt1, model = model_name,
@@ -100,4 +100,4 @@ ggplot(AIs, aes(x = AUTHID)) +
   geom_jitter(aes(y = extra_AI2, color = "AI2"), width = 0.1, height = 0.02) +
   scale_color_manual(values = c(AI1 = "blue", AI2 = "tomato"))
 
-#### Finish!!!
+#### Finish!!! :)
