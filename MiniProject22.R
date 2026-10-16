@@ -11,10 +11,10 @@ nrow(data)
 onlyEssay <- data %>% select("AUTHID", "TEXT")
 
 #### 3. Score by yourself ####
-extra1 <- c(1,2,3,4,5,1,2,3,4,5) # EJ
+extra1 <- c(3, 2, 3, 4, 2, 2, 2, 4, 4, 4) # EJ
 (Human1 <- data.frame(data[,1, drop = F], human1 = extra1))
 
-extra2 <- c(4,4,4,4,5,5,4,3,2,1) # CK
+extra2 <- c(2, 5, 1, 3, 2, 4, 4, 2, 5, 3) # CK
 (Human2 <- data.frame(data[,1, drop = F], human2 = extra2))
 
 Humans <- merge(Human1, Human2, by = "AUTHID")
