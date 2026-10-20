@@ -85,7 +85,8 @@ AIs <- merge(con1Score,con2Score, by = "AUTHID", suffixes = c("_AI1", "_AI2"))
 ## marge data
 (Final <- merge(Humans, AIs, by = "AUTHID"))
 # save data
-write.csv(Final, "mini2_final_output.csv")
+# write.csv(Final, "mini2_final_output.csv")
+Final <- read.csv("mini2_final_output.csv")
 
   # human; ai
   humans <- Final %>% select("human1","human2"); ais <- Final %>% select("extra_AI1", "extra_AI2")
@@ -103,10 +104,10 @@ corAI <- cor.test(Final$extra_AI1, Final$extra_AI2)
 
 cat("[Correlation between humans or between AIs]")
 corHU; corAI
-
+(rank_cor.AI <- cor.test(Final$extra_AI1, Final$extra_AI2, method = "spearman"))
 
 # Kendall's W
-#WWW
+#
 kendall(humans);kendall(ais) ;kendall(rank)
 
 ## Plot
